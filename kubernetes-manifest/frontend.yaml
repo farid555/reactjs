@@ -22,10 +22,10 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ogochukwuozotta/frontend-js:latest
+        image: fariduzzaman555/frontend-js:latest
         env:
         - name: VITE_REACT_APP_API_URL
-          value: "http://quizapp.cloudcorehub.com/api/questions"
+          value: "http://quizappfi.cloudcorehub.com/api/questions"
         ports:
         - containerPort: 8080
 ---
