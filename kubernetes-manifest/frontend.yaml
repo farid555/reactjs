@@ -25,7 +25,7 @@ spec:
         image: fariduzzaman555/frontend-js:latest
         env:
         - name: VITE_REACT_APP_API_URL
-          value: "http://quizappfi.devcloudezone.com/api/questions"
+          value: "http://quizapp.devcloudezone.com/api/questions"
         ports:
         - containerPort: 8080
 ---
