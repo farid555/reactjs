@@ -10,8 +10,8 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: quizappfi.cloudcorehub.com
-      http:
+    - host: quizappfi.devcloudezone.com
+      http: 
         paths:
           - path: /api/questions
             pathType: Prefix
